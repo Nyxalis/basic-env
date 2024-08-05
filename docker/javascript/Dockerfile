@@ -1,4 +1,4 @@
-FROM uwunet/basic-env-base:latest
+FROM docker pull ghcr.io/nyxalis/base:base
 
 # nvm + node + pnpm
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash

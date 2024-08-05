@@ -313,12 +313,12 @@ resource "coder_metadata" "home" {
 
 resource "docker_image" "base_image" {
   count = 1
-  name = "uwunet/basic-env-base:latest"
+  name = "docker pull ghcr.io/nyxalis/base:base"
 
   build {
     context = "./docker/base"
 
-    tag     = ["uwunet/basic-env-base", "uwunet/basic-env-base:latest", "uwunet/basic-env-base:v0.6"]
+    tag     = ["uwunet/basic-env-base", "docker pull ghcr.io/nyxalis/base:base", "uwunet/basic-env-base:v0.6"]
   }
 
   keep_locally = true

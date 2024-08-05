@@ -1,4 +1,4 @@
-FROM uwunet/basic-env-base:latest
+FROM docker pull ghcr.io/nyxalis/base:base
 
 USER root
 
