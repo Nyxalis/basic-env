@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         oses:
-          - base
+          - javascript
 
     steps:
       - uses: actions/checkout@v4
