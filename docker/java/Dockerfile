@@ -1,4 +1,4 @@
-FROM docker pull ghcr.io/nyxalis/base:base
+FROM ghcr.io/nyxalis/base:base
 
 USER root
 
