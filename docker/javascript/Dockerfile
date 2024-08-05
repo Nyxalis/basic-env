@@ -1,4 +1,4 @@
-FROM ghcr.io/nyxalis/base:base
+FROM ghcr.io/nyxalis/base-env:base
 
 # nvm + node + pnpm
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash

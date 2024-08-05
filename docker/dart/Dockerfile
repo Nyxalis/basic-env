@@ -1,4 +1,4 @@
-FROM ghcr.io/nyxalis/base:base
+FROM ghcr.io/nyxalis/base-env:base
 
 USER root
 
