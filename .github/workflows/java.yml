@@ -1,4 +1,4 @@
-name: build base
+name: build java
 on:
   workflow_dispatch:
   schedule:
